@@ -3,43 +3,38 @@ html {
 }
 
 #representation {
-    -webkit-animation: color-change 8s infinite;
-    -moz-animation: color-change 8s infinite;
-    -o-animation: color-change 8s infinite;
-    -ms-animation: color-change 8s infinite;
-    animation: color-change 8s infinite;
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
 
     animation-timing-function: step-end;
 }
 
     @-webkit-keyframes color-change {
         from { color: #0015BC; }
-        33% { color: purple; }
-        66% { color: red; }
+        50% { color: #FF0000; }
         from { color: #0015BC; }
     }
     @-moz-keyframes color-change {
         from { color: #0015BC; }
-        33% { color: purple; }
-        66% { color: red; }
+        50% { color: #FF0000; }
         from { color: #0015BC; }
     }
     @-ms-keyframes color-change {
         from { color: #0015BC; }
-        33% { color: purple; }
-        66% { color: red; }
+        50% { color: #FF0000; }
         from { color: #0015BC; }
     }
     @-o-keyframes color-change {
         from { color: #0015BC; }
-        33% { color: purple; }
-        66% { color: red; }
+        50% { color: #FF0000; }
         from { color: #0015BC; }
     }
     @keyframes color-change {
         from { color: #0015BC; }
-        33% { color: purple; }
-        66% { color: red; }
+        50% { color: #FF0000; }
         from { color: #0015BC; }
     }  
 
