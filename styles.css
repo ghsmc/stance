@@ -38,6 +38,15 @@ html {
         from { color: #0015BC; }
     }  
 
+    .directory-borders {
+        border-width: 1px;
+        border-color: #D1D5DB;
+    }
+
+    .sub-caption-directory {
+        width: 190px;
+    }
+    
 
 
  
