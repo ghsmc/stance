@@ -54,32 +54,39 @@
                         <h1 class="text-4xl mb-2 tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                             <span class="block xl:inline font-semibold">Directory</span>
                         </h1>
-                        <p
-                            class="mt-1 max-w-5xl mx-auto text-base text-gray-500 sm:text-lg md:mt-1 md:text-md md:max-w-5xl mb-12">
-                            Learn more about how we calculated your results here.
+                    <a href="mission.html#researchprocess">
+                        <p class="mt-1 max-w-5xl mx-auto text-base text-gray-500 sm:text-lg md:mt-1 md:text-md md:max-w-5xl mb-12">
+                            Learn more about how we calculated your results &#x2192
                         </p>
+                    </a>
+                        
                     </div>
                 </main>
 
                 <div>
                     <h1 class="text-left text-2xl font-semibold">The White House</h1>
+                    <p class="mt-1 max-w-5xl mx-auto text-base text-gray-500 sm:text-lg">
+                        To learn more, click the card
+                    </p>
                 </div>
 
                 <!-- Joe Biden -->
+            
                 <div class="grid grid-cols-2 gap-4 place-content-start">
-                    <a href="joebiden.html">
-                        <div class="col-span-1 bg-white rounded-sm divide-y divide-gray-200 max-w-sm break-all my-5 bg-gray-50 directory-borders  hover:border-blue-400">
-                            <div class="w-full flex pb-6 pt-6 px-6 space-x-6">
+                    
+                    <a onclick="myFunction()">
+                        <div class="col-span-1 bg-white rounded-sm divide-y divide-gray-200  break-all mt-5 bg-gray-50 directory-borders directory-width hover:border-blue-400">
+                            <div class="w-full flex pb-4 pt-4 px-4 space-x-6">
                                 <div class="flex-1">
-                                    <img class="h-28 w-28 inline-block float-right" src=joebiden.jpg>
+                                    <img class="h-24 w-24 inline-block float-right" src=joebiden.jpg>
                                     <div class="space-x-3 text-xl sub-caption-directory">
                                         <span class="text-gray-900 font-medium truncate">Josh Hawley</span>
                                         <span class="text-green-600 float-right"><b>8</b>/10</span>
                                     </div>
-                                    <div class="pb-2">
+                                    <div>
                                         <p class="mt-1 text-gray-600  sub-caption-directory break-normal text-xs">Josh Hawley is a republican senator, representing Minnesota.</p>
                                     </div>
-                                    <div pt-8>
+                                    <div class="mt-1">
                                         <span
                                             class="flex-shrink-0 inline-block px-2 py-0.5 text-gray-800 text-xs bg-red-400 rounded-full">Republican</span>
                                         <span
@@ -90,20 +97,21 @@
                         </div>
                     </a>
 
-                    <a href="joebiden.html">
-                        <div class="col-span-1 rounded-sm divide-y divide-gray-200 max-w-sm break-all my-5 bg-gray-50 directory-borders hover:border-blue-400">
-                            <div class="w-full flex items-center justify-between pb-6 pt-6 px-6 space-x-6">
-                                <div class="flex-1 truncate">
-                                    <img class="h-28 w-28 inline-block float-right" src=joebiden.jpg>
-                                    <div class="space-x-3 text-xl">
-                                        <span class="text-gray-900 text-sm font-medium truncate text-xl">Josh Hawley</span>
-                                        <span class="text-green-600">&#8239<b>8</b>/10</span>
+    
+                
+                    <a onclick="myFunction()">
+                        <div class="col-span-1 bg-white rounded-sm divide-y divide-gray-200  break-all mt-5 bg-gray-50 directory-borders directory-width hover:border-blue-400">
+                            <div class="w-full flex pb-4 pt-4 px-4 space-x-6">
+                                <div class="flex-1">
+                                    <img class="h-24 w-24 inline-block float-right" src=joebiden.jpg>
+                                    <div class="space-x-3 text-xl sub-caption-directory">
+                                        <span class="text-gray-900 font-medium truncate">Josh Hawley</span>
+                                        <span class="text-green-600 float-right"><b>8</b>/10</span>
                                     </div>
-                                    <div class="pb-2 pt-1">
-                                        <p class="mt-1 text-gray-600 text-xs truncate">Josh Hawley is a republican</p>
-                                        <p class="mt-1 text-gray-600 text-xs truncate">senator, representing Minnesota.</p>
+                                    <div>
+                                        <p class="mt-1 text-gray-600  sub-caption-directory break-normal text-xs">Josh Hawley is a republican senator, representing Minnesota.</p>
                                     </div>
-                                    <div pt-8>
+                                    <div class="mt-1">
                                         <span
                                             class="flex-shrink-0 inline-block px-2 py-0.5 text-gray-800 text-xs bg-red-400 rounded-full">Republican</span>
                                         <span
@@ -113,7 +121,27 @@
                             </div>
                         </div>
                     </a>
-                    
+
+                    <div id="dropdown" class="directory-width float-left"> 
+                        <table style="width:100%">
+                            <tr class="px-2 py-2">
+                              <td><span class="text-left ml-1">Gun Control </span><span class="float-right mr-1 text-green-600"><b>8</b>/10</span></td>
+                              <td><span class="text-left ml-1">Climate </span><span class="float-right mr-1 text-green-600"><b>8</b>/10</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="text-left ml-1">Abortion</span><span class="float-right mr-1 text-green-600"><b>8</b>/10</span></td>
+                                <td><span class="text-left ml-1">Inequality </span><span class="float-right mr-1 text-green-600"><b>8</b>/10</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="text-left ml-1">Wages </span><span class="float-right mr-1 text-green-600"><b>8</b>/10</span></td>
+                                <td><span class="text-left ml-1">Borders </span><span class="float-right mr-1 text-green-600"><b>8</b>/10</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="text-left ml-1">Healthcare </span><span class="float-right mr-1 text-green-600"><b>8</b>/10</span></td>
+                                <td><span class="text-left ml-1">Death Penalty </span><span class="float-right mr-1 text-green-600"><b>8</b>/10</span></td>
+                            </tr>
+                          </table>
+                    </div>
                 </div>
             </div>
         </div>

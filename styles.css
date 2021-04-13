@@ -47,6 +47,14 @@ html {
         width: 190px;
     }
     
+    .directory-width {
+        width: 22rem;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
 
 
  
