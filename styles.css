@@ -59,5 +59,13 @@ html {
         margin-top: 0px;
     }
 
+    .covered {
+        border: 1px solid white;
+        background-color: white;
+        color: white;
+    }
 
+    a {
+        cursor: pointer;
+    }
 
