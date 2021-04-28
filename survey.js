@@ -4,8 +4,13 @@ let SenNames = ["Joe Biden", "Kamala Harris", "Richard Shelby", "Tommy Tubervill
 
 function main() {
     grab();
-    window.location.replace('directory.html')
+    if (has9chars) {
+        window.location.replace('directory.html')
+    } else {
+        alert("Please respond to all the questions.");
 }
+}
+
 
 function grab() {
     let questions = ["Q1A", "Q1B", "Q1C", "Q2A", "Q2B", "Q2C", "Q2D", "Q3A", "Q3B", "Q3C", "Q4A", "Q4B", "Q4C", "Q4D", "Q5A", "Q5B", "Q5C", "Q5D", "Q6A", "Q6B", "Q6C", "Q6D", "Q7A", "Q7B", "Q7C", "Q7D", "Q8A", "Q8B", "Q8C", "Q9A", "Q9B", "Q9C"]
@@ -45,9 +50,13 @@ function cleancode(code) {
 }
 
 function has9chars(code) {
+    console.log(code.splice(0, 10));
     if (code.length === 9) {
         return true;
-    } else {
+    } else if (code.length > 9) {
+        code = code.splice(0, 9);
+    }
+    else {
         return false;
     }
 }
