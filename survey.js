@@ -4,10 +4,12 @@ let SenNames = ["Joe Biden", "Kamala Harris", "Richard Shelby", "Tommy Tubervill
 
 function main() {
     grab();
+    console.log("poop!")
     if (has9chars) {
         window.location.replace('directory.html')
     } else {
         alert("Please respond to all the questions.");
+// }
 }
 }
 
@@ -50,11 +52,10 @@ function cleancode(code) {
 }
 
 function has9chars(code) {
-    console.log(code.splice(0, 10));
     if (code.length === 9) {
         return true;
-    } else if (code.length > 9) {
-        code = code.splice(0, 9);
+    // } else if (code.length > 9) {
+    //     code = code.splice(0, 9);
     }
     else {
         return false;
